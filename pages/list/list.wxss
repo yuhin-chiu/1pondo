@@ -1,0 +1,31 @@
+/* pages/list/list.wxss */
+.label {
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  color: blue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;  
+}
+.list {
+  margin-top: 3rem;
+}
+.flex {
+  display: flex;
+}
+.item {
+  background-color: lightgray;
+  border-bottom: 1px solid #fff;
+  flex: 1;
+  height: 12rem;
+  display: flex;
+}
+.left {
+  border-right: 1px solid #fff;
+}
+image {
+  width: 100%;
+  height: 100%;
+}

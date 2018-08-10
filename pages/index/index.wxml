@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class='index-body'>
+  <view class='index-banner'>
+    <image class='index-banner-image' mode='scaleToFill' src='https://ltg-1254424775.cos.ap-chengdu.myqcloud.com/logo.png'></image>
+  </view>
+  <view class='index-rule'>
+    <span class='index-line'></span>
+    <span class='index-txt'>选图</span>
+    <span class='index-line'></span>
+  </view>
+  <view id='bts' class='flex-column'>
+    <view class="flex-row flex-1 flex-margin" bindtap="bindButtonTap" 
+        data-title='你·别看' data-label='精致小清新'>
+      <view class="flex-column flex-2 flex-cell">
+        <text class="text-row font-max">你·别看</text>
+        <text class="text-row font-min">精致小清新</text>
+      </view>
+    </view>
+    <view class="flex-row flex-1 flex-margin">
+      <view class="flex-column flex-1 flex-cell" bindtap="bindButtonTap" 
+        data-title='爱·宣言' data-label='情侣对图'>
+        <text class="text-row font-max">爱·宣言</text>
+        <text class="text-row font-min">情侣对图</text>
+      </view>
+      <view class="flex-column flex-1 flex-cell" bindtap="bindButtonTap" 
+        data-title='我·不同' data-label='School/水墨/水彩/写实/传统'>
+        <text class="text-row font-max">我·不同</text>
+        <text class="text-row font-min">School/水墨/水彩/写实/传统</text>
+      </view>
+    </view>
+    <view class="flex-row flex-1 flex-margin">
+      <view class="flex-column flex-1 flex-cell" bindtap="bindButtonTap" 
+        data-title='吗·需求定制' data-label='原创设计'>
+        <text class="text-row font-max">吗·需求定制</text>
+        <text class="text-row font-min">原创设计</text>
+      </view>
+      <view class="flex-column flex-1 flex-cell" bindtap="bindButtonTap" 
+        data-title='不悔·修改与遮盖' data-label='疤痕遮盖/旧图修改'>
+        <text class="text-row font-max">不悔·修改与遮盖</text>
+        <text class="text-row font-min">疤痕遮盖/旧图修改</text>
+      </view>
+    </view>
+  </view>
+</view>

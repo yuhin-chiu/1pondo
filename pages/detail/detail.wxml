@@ -1,0 +1,11 @@
+<!--pages/detail/detail.wxml-->
+<view>
+  <view class='image-panel'>
+    <image class='image-detail' src='{{src}}' mode='scaleToFill' bindtap="previewImage"></image>
+  </view>
+  <view class='image-bottom'>
+    <view class='bottom-title'>编号:1234</view>
+    <button class='bottom-button' open-type='contact'>联系客服</button>
+  </view>
+</view>
+

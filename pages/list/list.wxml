@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<view class='label'>{{label}}</view>
+<view class='list'>
+  <view class='flex' wx:for="{{images}}" wx:for-item="item">
+   <view class='item left' wx:if='{{item.left}}'>
+    <image src="{{item.left}}" mode='scaleToFill' bindtap='goToDetail' data-src="{{item.left}}"></image>
+   </view>
+   <view class='item' wx:if='{{item.right}}'>
+      <image src="{{item.right}}" mode='scaleToFill' bindtap='goToDetail' data-src="{{item.right}}"></image>
+   </view>
+   <view class='item' wx:if='{{!item.right}}' style='background-color:#fff'></view>
+  </view>
+</view>
